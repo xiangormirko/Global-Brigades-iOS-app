@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD4B1E2318B2D59600AF3528 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD4B1E2218B2D59600AF3528 /* Foundation.framework */; };
+		CD4B1E2518B2D59600AF3528 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD4B1E2418B2D59600AF3528 /* CoreGraphics.framework */; };
+		CD4B1E2718B2D59600AF3528 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD4B1E2618B2D59600AF3528 /* UIKit.framework */; };
+		CD4B1E2D18B2D59600AF3528 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CD4B1E2B18B2D59600AF3528 /* InfoPlist.strings */; };
+		CD4B1E2F18B2D59600AF3528 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD4B1E2E18B2D59600AF3528 /* main.m */; };
+		CD4B1E3318B2D59600AF3528 /* XZMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD4B1E3218B2D59600AF3528 /* XZMAppDelegate.m */; };
+		CD4B1E3618B2D59600AF3528 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD4B1E3418B2D59600AF3528 /* Main.storyboard */; };
+		CD4B1E3918B2D59600AF3528 /* XZMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD4B1E3818B2D59600AF3528 /* XZMViewController.m */; };
+		CD4B1E3B18B2D59600AF3528 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD4B1E3A18B2D59600AF3528 /* Images.xcassets */; };
+		CD4B1E4218B2D59600AF3528 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD4B1E4118B2D59600AF3528 /* XCTest.framework */; };
+		CD4B1E4318B2D59600AF3528 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD4B1E2218B2D59600AF3528 /* Foundation.framework */; };
+		CD4B1E4418B2D59600AF3528 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD4B1E2618B2D59600AF3528 /* UIKit.framework */; };
+		CD4B1E4C18B2D59600AF3528 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CD4B1E4A18B2D59600AF3528 /* InfoPlist.strings */; };
+		CD4B1E4E18B2D59600AF3528 /* Global_BrigadesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD4B1E4D18B2D59600AF3528 /* Global_BrigadesTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CD4B1E4518B2D59600AF3528 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD4B1E1718B2D59600AF3528 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD4B1E1E18B2D59600AF3528;
+			remoteInfo = "Global Brigades";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CD4B1E1F18B2D59600AF3528 /* Global Brigades.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Global Brigades.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD4B1E2218B2D59600AF3528 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CD4B1E2418B2D59600AF3528 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CD4B1E2618B2D59600AF3528 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CD4B1E2A18B2D59600AF3528 /* Global Brigades-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Global Brigades-Info.plist"; sourceTree = "<group>"; };
+		CD4B1E2C18B2D59600AF3528 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CD4B1E2E18B2D59600AF3528 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CD4B1E3018B2D59600AF3528 /* Global Brigades-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Global Brigades-Prefix.pch"; sourceTree = "<group>"; };
+		CD4B1E3118B2D59600AF3528 /* XZMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XZMAppDelegate.h; sourceTree = "<group>"; };
+		CD4B1E3218B2D59600AF3528 /* XZMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XZMAppDelegate.m; sourceTree = "<group>"; };
+		CD4B1E3518B2D59600AF3528 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CD4B1E3718B2D59600AF3528 /* XZMViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XZMViewController.h; sourceTree = "<group>"; };
+		CD4B1E3818B2D59600AF3528 /* XZMViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XZMViewController.m; sourceTree = "<group>"; };
+		CD4B1E3A18B2D59600AF3528 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CD4B1E4018B2D59600AF3528 /* Global BrigadesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Global BrigadesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD4B1E4118B2D59600AF3528 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		CD4B1E4918B2D59600AF3528 /* Global BrigadesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Global BrigadesTests-Info.plist"; sourceTree = "<group>"; };
+		CD4B1E4B18B2D59600AF3528 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CD4B1E4D18B2D59600AF3528 /* Global_BrigadesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Global_BrigadesTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD4B1E1C18B2D59600AF3528 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD4B1E2518B2D59600AF3528 /* CoreGraphics.framework in Frameworks */,
+				CD4B1E2718B2D59600AF3528 /* UIKit.framework in Frameworks */,
+				CD4B1E2318B2D59600AF3528 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD4B1E3D18B2D59600AF3528 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD4B1E4218B2D59600AF3528 /* XCTest.framework in Frameworks */,
+				CD4B1E4418B2D59600AF3528 /* UIKit.framework in Frameworks */,
+				CD4B1E4318B2D59600AF3528 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD4B1E1618B2D59600AF3528 = {
+			isa = PBXGroup;
+			children = (
+				CD4B1E2818B2D59600AF3528 /* Global Brigades */,
+				CD4B1E4718B2D59600AF3528 /* Global BrigadesTests */,
+				CD4B1E2118B2D59600AF3528 /* Frameworks */,
+				CD4B1E2018B2D59600AF3528 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD4B1E2018B2D59600AF3528 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD4B1E1F18B2D59600AF3528 /* Global Brigades.app */,
+				CD4B1E4018B2D59600AF3528 /* Global BrigadesTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD4B1E2118B2D59600AF3528 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CD4B1E2218B2D59600AF3528 /* Foundation.framework */,
+				CD4B1E2418B2D59600AF3528 /* CoreGraphics.framework */,
+				CD4B1E2618B2D59600AF3528 /* UIKit.framework */,
+				CD4B1E4118B2D59600AF3528 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CD4B1E2818B2D59600AF3528 /* Global Brigades */ = {
+			isa = PBXGroup;
+			children = (
+				CD4B1E3118B2D59600AF3528 /* XZMAppDelegate.h */,
+				CD4B1E3218B2D59600AF3528 /* XZMAppDelegate.m */,
+				CD4B1E3418B2D59600AF3528 /* Main.storyboard */,
+				CD4B1E3718B2D59600AF3528 /* XZMViewController.h */,
+				CD4B1E3818B2D59600AF3528 /* XZMViewController.m */,
+				CD4B1E3A18B2D59600AF3528 /* Images.xcassets */,
+				CD4B1E2918B2D59600AF3528 /* Supporting Files */,
+			);
+			path = "Global Brigades";
+			sourceTree = "<group>";
+		};
+		CD4B1E2918B2D59600AF3528 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CD4B1E2A18B2D59600AF3528 /* Global Brigades-Info.plist */,
+				CD4B1E2B18B2D59600AF3528 /* InfoPlist.strings */,
+				CD4B1E2E18B2D59600AF3528 /* main.m */,
+				CD4B1E3018B2D59600AF3528 /* Global Brigades-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CD4B1E4718B2D59600AF3528 /* Global BrigadesTests */ = {
+			isa = PBXGroup;
+			children = (
+				CD4B1E4D18B2D59600AF3528 /* Global_BrigadesTests.m */,
+				CD4B1E4818B2D59600AF3528 /* Supporting Files */,
+			);
+			path = "Global BrigadesTests";
+			sourceTree = "<group>";
+		};
+		CD4B1E4818B2D59600AF3528 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CD4B1E4918B2D59600AF3528 /* Global BrigadesTests-Info.plist */,
+				CD4B1E4A18B2D59600AF3528 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD4B1E1E18B2D59600AF3528 /* Global Brigades */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD4B1E5118B2D59600AF3528 /* Build configuration list for PBXNativeTarget "Global Brigades" */;
+			buildPhases = (
+				CD4B1E1B18B2D59600AF3528 /* Sources */,
+				CD4B1E1C18B2D59600AF3528 /* Frameworks */,
+				CD4B1E1D18B2D59600AF3528 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Global Brigades";
+			productName = "Global Brigades";
+			productReference = CD4B1E1F18B2D59600AF3528 /* Global Brigades.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CD4B1E3F18B2D59600AF3528 /* Global BrigadesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD4B1E5418B2D59600AF3528 /* Build configuration list for PBXNativeTarget "Global BrigadesTests" */;
+			buildPhases = (
+				CD4B1E3C18B2D59600AF3528 /* Sources */,
+				CD4B1E3D18B2D59600AF3528 /* Frameworks */,
+				CD4B1E3E18B2D59600AF3528 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD4B1E4618B2D59600AF3528 /* PBXTargetDependency */,
+			);
+			name = "Global BrigadesTests";
+			productName = "Global BrigadesTests";
+			productReference = CD4B1E4018B2D59600AF3528 /* Global BrigadesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD4B1E1718B2D59600AF3528 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = XZM;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = Xiangormirko;
+				TargetAttributes = {
+					CD4B1E3F18B2D59600AF3528 = {
+						TestTargetID = CD4B1E1E18B2D59600AF3528;
+					};
+				};
+			};
+			buildConfigurationList = CD4B1E1A18B2D59600AF3528 /* Build configuration list for PBXProject "Global Brigades" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD4B1E1618B2D59600AF3528;
+			productRefGroup = CD4B1E2018B2D59600AF3528 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD4B1E1E18B2D59600AF3528 /* Global Brigades */,
+				CD4B1E3F18B2D59600AF3528 /* Global BrigadesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD4B1E1D18B2D59600AF3528 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD4B1E3B18B2D59600AF3528 /* Images.xcassets in Resources */,
+				CD4B1E2D18B2D59600AF3528 /* InfoPlist.strings in Resources */,
+				CD4B1E3618B2D59600AF3528 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD4B1E3E18B2D59600AF3528 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD4B1E4C18B2D59600AF3528 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD4B1E1B18B2D59600AF3528 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD4B1E3318B2D59600AF3528 /* XZMAppDelegate.m in Sources */,
+				CD4B1E2F18B2D59600AF3528 /* main.m in Sources */,
+				CD4B1E3918B2D59600AF3528 /* XZMViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD4B1E3C18B2D59600AF3528 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD4B1E4E18B2D59600AF3528 /* Global_BrigadesTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CD4B1E4618B2D59600AF3528 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD4B1E1E18B2D59600AF3528 /* Global Brigades */;
+			targetProxy = CD4B1E4518B2D59600AF3528 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CD4B1E2B18B2D59600AF3528 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD4B1E2C18B2D59600AF3528 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CD4B1E3418B2D59600AF3528 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD4B1E3518B2D59600AF3528 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CD4B1E4A18B2D59600AF3528 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD4B1E4B18B2D59600AF3528 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD4B1E4F18B2D59600AF3528 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CD4B1E5018B2D59600AF3528 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD4B1E5218B2D59600AF3528 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Global Brigades/Global Brigades-Prefix.pch";
+				INFOPLIST_FILE = "Global Brigades/Global Brigades-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CD4B1E5318B2D59600AF3528 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Global Brigades/Global Brigades-Prefix.pch";
+				INFOPLIST_FILE = "Global Brigades/Global Brigades-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		CD4B1E5518B2D59600AF3528 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Global Brigades.app/Global Brigades";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Global Brigades/Global Brigades-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Global BrigadesTests/Global BrigadesTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		CD4B1E5618B2D59600AF3528 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Global Brigades.app/Global Brigades";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Global Brigades/Global Brigades-Prefix.pch";
+				INFOPLIST_FILE = "Global BrigadesTests/Global BrigadesTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD4B1E1A18B2D59600AF3528 /* Build configuration list for PBXProject "Global Brigades" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD4B1E4F18B2D59600AF3528 /* Debug */,
+				CD4B1E5018B2D59600AF3528 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD4B1E5118B2D59600AF3528 /* Build configuration list for PBXNativeTarget "Global Brigades" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD4B1E5218B2D59600AF3528 /* Debug */,
+				CD4B1E5318B2D59600AF3528 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CD4B1E5418B2D59600AF3528 /* Build configuration list for PBXNativeTarget "Global BrigadesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD4B1E5518B2D59600AF3528 /* Debug */,
+				CD4B1E5618B2D59600AF3528 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD4B1E1718B2D59600AF3528 /* Project object */;
+}
