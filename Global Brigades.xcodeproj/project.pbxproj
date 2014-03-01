@@ -7,20 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CD01CC4618C111E600A61F43 /* itineraryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD01CC4518C111E600A61F43 /* itineraryViewController.m */; };
+		CD01CC4918C11C2200A61F43 /* dictionaryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD01CC4818C11C2200A61F43 /* dictionaryViewController.m */; };
+		CD18EE7D18B7150800D0278C /* TPKeyboardAvoidingScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = CD18EE7C18B7150800D0278C /* TPKeyboardAvoidingScrollView.m */; };
+		CD2F96FF18B6E0D700D9DDDF /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD2F96FE18B6E0D700D9DDDF /* LoginViewController.m */; };
+		CD2F970118B6E0E500D9DDDF /* XZMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD2F970018B6E0E500D9DDDF /* XZMAppDelegate.m */; };
+		CD2F970618B6E0FD00D9DDDF /* SignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD2F970418B6E0FD00D9DDDF /* SignUpViewController.m */; };
+		CD2F970918B6E10700D9DDDF /* XZMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD2F970818B6E10700D9DDDF /* XZMViewController.m */; };
 		CD4B1E2318B2D59600AF3528 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD4B1E2218B2D59600AF3528 /* Foundation.framework */; };
 		CD4B1E2518B2D59600AF3528 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD4B1E2418B2D59600AF3528 /* CoreGraphics.framework */; };
 		CD4B1E2718B2D59600AF3528 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD4B1E2618B2D59600AF3528 /* UIKit.framework */; };
 		CD4B1E2D18B2D59600AF3528 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CD4B1E2B18B2D59600AF3528 /* InfoPlist.strings */; };
 		CD4B1E2F18B2D59600AF3528 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD4B1E2E18B2D59600AF3528 /* main.m */; };
-		CD4B1E3318B2D59600AF3528 /* XZMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD4B1E3218B2D59600AF3528 /* XZMAppDelegate.m */; };
 		CD4B1E3618B2D59600AF3528 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD4B1E3418B2D59600AF3528 /* Main.storyboard */; };
-		CD4B1E3918B2D59600AF3528 /* XZMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD4B1E3818B2D59600AF3528 /* XZMViewController.m */; };
 		CD4B1E3B18B2D59600AF3528 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD4B1E3A18B2D59600AF3528 /* Images.xcassets */; };
 		CD4B1E4218B2D59600AF3528 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD4B1E4118B2D59600AF3528 /* XCTest.framework */; };
 		CD4B1E4318B2D59600AF3528 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD4B1E2218B2D59600AF3528 /* Foundation.framework */; };
 		CD4B1E4418B2D59600AF3528 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD4B1E2618B2D59600AF3528 /* UIKit.framework */; };
 		CD4B1E4C18B2D59600AF3528 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CD4B1E4A18B2D59600AF3528 /* InfoPlist.strings */; };
 		CD4B1E4E18B2D59600AF3528 /* Global_BrigadesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD4B1E4D18B2D59600AF3528 /* Global_BrigadesTests.m */; };
+		CD4E05D318B6716200DD24C9 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD4E05D218B6716200DD24C9 /* AudioToolbox.framework */; };
+		CD4E05DC18B6718700DD24C9 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD4E05D418B6718700DD24C9 /* CFNetwork.framework */; };
+		CD4E05DD18B6718700DD24C9 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD4E05D518B6718700DD24C9 /* CoreLocation.framework */; };
+		CD4E05DE18B6718700DD24C9 /* libz.1.1.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = CD4E05D618B6718700DD24C9 /* libz.1.1.3.dylib */; };
+		CD4E05DF18B6718700DD24C9 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD4E05D718B6718700DD24C9 /* MobileCoreServices.framework */; };
+		CD4E05E018B6718700DD24C9 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD4E05D818B6718700DD24C9 /* QuartzCore.framework */; };
+		CD4E05E118B6718700DD24C9 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD4E05D918B6718700DD24C9 /* Security.framework */; };
+		CD4E05E218B6718700DD24C9 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD4E05DA18B6718700DD24C9 /* StoreKit.framework */; };
+		CD4E05E318B6718700DD24C9 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD4E05DB18B6718700DD24C9 /* SystemConfiguration.framework */; };
+		CD88BD2218BA9E6000FB1EB5 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD88BD2118BA9E6000FB1EB5 /* Parse.framework */; };
+		CDBCCC7718C0FD8E00E87B97 /* extraListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDBCCC7618C0FD8E00E87B97 /* extraListViewController.m */; };
+		CDD759DB18BEB9E300D6F3E3 /* newsfeedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDD759DA18BEB9E300D6F3E3 /* newsfeedViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +51,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CD01CC4418C111E600A61F43 /* itineraryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = itineraryViewController.h; sourceTree = "<group>"; };
+		CD01CC4518C111E600A61F43 /* itineraryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = itineraryViewController.m; sourceTree = "<group>"; };
+		CD01CC4718C11C2200A61F43 /* dictionaryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dictionaryViewController.h; sourceTree = "<group>"; };
+		CD01CC4818C11C2200A61F43 /* dictionaryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = dictionaryViewController.m; sourceTree = "<group>"; };
+		CD18EE7B18B7150800D0278C /* TPKeyboardAvoidingScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPKeyboardAvoidingScrollView.h; sourceTree = "<group>"; };
+		CD18EE7C18B7150800D0278C /* TPKeyboardAvoidingScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingScrollView.m; sourceTree = "<group>"; };
+		CD2F96FD18B6E0CB00D9DDDF /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		CD2F96FE18B6E0D700D9DDDF /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		CD2F970018B6E0E500D9DDDF /* XZMAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XZMAppDelegate.m; sourceTree = "<group>"; };
+		CD2F970218B6E0F100D9DDDF /* XZMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XZMAppDelegate.h; sourceTree = "<group>"; };
+		CD2F970318B6E0FD00D9DDDF /* SignUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignUpViewController.h; sourceTree = "<group>"; };
+		CD2F970418B6E0FD00D9DDDF /* SignUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignUpViewController.m; sourceTree = "<group>"; };
+		CD2F970518B6E0FD00D9DDDF /* XZMAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XZMAppDelegate.h; sourceTree = "<group>"; };
+		CD2F970718B6E10700D9DDDF /* XZMViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XZMViewController.h; sourceTree = "<group>"; };
+		CD2F970818B6E10700D9DDDF /* XZMViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XZMViewController.m; sourceTree = "<group>"; };
 		CD4B1E1F18B2D59600AF3528 /* Global Brigades.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Global Brigades.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD4B1E2218B2D59600AF3528 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		CD4B1E2418B2D59600AF3528 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -42,17 +74,27 @@
 		CD4B1E2C18B2D59600AF3528 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CD4B1E2E18B2D59600AF3528 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CD4B1E3018B2D59600AF3528 /* Global Brigades-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Global Brigades-Prefix.pch"; sourceTree = "<group>"; };
-		CD4B1E3118B2D59600AF3528 /* XZMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XZMAppDelegate.h; sourceTree = "<group>"; };
-		CD4B1E3218B2D59600AF3528 /* XZMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XZMAppDelegate.m; sourceTree = "<group>"; };
 		CD4B1E3518B2D59600AF3528 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		CD4B1E3718B2D59600AF3528 /* XZMViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XZMViewController.h; sourceTree = "<group>"; };
-		CD4B1E3818B2D59600AF3528 /* XZMViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XZMViewController.m; sourceTree = "<group>"; };
 		CD4B1E3A18B2D59600AF3528 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		CD4B1E4018B2D59600AF3528 /* Global BrigadesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Global BrigadesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD4B1E4118B2D59600AF3528 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		CD4B1E4918B2D59600AF3528 /* Global BrigadesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Global BrigadesTests-Info.plist"; sourceTree = "<group>"; };
 		CD4B1E4B18B2D59600AF3528 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CD4B1E4D18B2D59600AF3528 /* Global_BrigadesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Global_BrigadesTests.m; sourceTree = "<group>"; };
+		CD4E05D218B6716200DD24C9 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		CD4E05D418B6718700DD24C9 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		CD4E05D518B6718700DD24C9 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		CD4E05D618B6718700DD24C9 /* libz.1.1.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.1.3.dylib; path = usr/lib/libz.1.1.3.dylib; sourceTree = SDKROOT; };
+		CD4E05D718B6718700DD24C9 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		CD4E05D818B6718700DD24C9 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		CD4E05D918B6718700DD24C9 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		CD4E05DA18B6718700DD24C9 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		CD4E05DB18B6718700DD24C9 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		CD88BD2118BA9E6000FB1EB5 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = SOURCE_ROOT; };
+		CDBCCC7518C0FD8E00E87B97 /* extraListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = extraListViewController.h; sourceTree = "<group>"; };
+		CDBCCC7618C0FD8E00E87B97 /* extraListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = extraListViewController.m; sourceTree = "<group>"; };
+		CDD759D918BEB9E300D6F3E3 /* newsfeedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = newsfeedViewController.h; sourceTree = "<group>"; };
+		CDD759DA18BEB9E300D6F3E3 /* newsfeedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = newsfeedViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +102,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD4E05DC18B6718700DD24C9 /* CFNetwork.framework in Frameworks */,
+				CD4E05DD18B6718700DD24C9 /* CoreLocation.framework in Frameworks */,
+				CD4E05DE18B6718700DD24C9 /* libz.1.1.3.dylib in Frameworks */,
+				CD4E05DF18B6718700DD24C9 /* MobileCoreServices.framework in Frameworks */,
+				CD4E05E018B6718700DD24C9 /* QuartzCore.framework in Frameworks */,
+				CD4E05E118B6718700DD24C9 /* Security.framework in Frameworks */,
+				CD88BD2218BA9E6000FB1EB5 /* Parse.framework in Frameworks */,
+				CD4E05E218B6718700DD24C9 /* StoreKit.framework in Frameworks */,
+				CD4E05E318B6718700DD24C9 /* SystemConfiguration.framework in Frameworks */,
 				CD4B1E2518B2D59600AF3528 /* CoreGraphics.framework in Frameworks */,
+				CD4E05D318B6716200DD24C9 /* AudioToolbox.framework in Frameworks */,
 				CD4B1E2718B2D59600AF3528 /* UIKit.framework in Frameworks */,
 				CD4B1E2318B2D59600AF3528 /* Foundation.framework in Frameworks */,
 			);
@@ -101,8 +153,18 @@
 		CD4B1E2118B2D59600AF3528 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				CD4B1E2218B2D59600AF3528 /* Foundation.framework */,
+				CD88BD2118BA9E6000FB1EB5 /* Parse.framework */,
+				CD4E05D218B6716200DD24C9 /* AudioToolbox.framework */,
+				CD4E05D418B6718700DD24C9 /* CFNetwork.framework */,
 				CD4B1E2418B2D59600AF3528 /* CoreGraphics.framework */,
+				CD4E05D518B6718700DD24C9 /* CoreLocation.framework */,
+				CD4B1E2218B2D59600AF3528 /* Foundation.framework */,
+				CD4E05D618B6718700DD24C9 /* libz.1.1.3.dylib */,
+				CD4E05D718B6718700DD24C9 /* MobileCoreServices.framework */,
+				CD4E05D818B6718700DD24C9 /* QuartzCore.framework */,
+				CD4E05D918B6718700DD24C9 /* Security.framework */,
+				CD4E05DA18B6718700DD24C9 /* StoreKit.framework */,
+				CD4E05DB18B6718700DD24C9 /* SystemConfiguration.framework */,
 				CD4B1E2618B2D59600AF3528 /* UIKit.framework */,
 				CD4B1E4118B2D59600AF3528 /* XCTest.framework */,
 			);
@@ -112,13 +174,14 @@
 		CD4B1E2818B2D59600AF3528 /* Global Brigades */ = {
 			isa = PBXGroup;
 			children = (
-				CD4B1E3118B2D59600AF3528 /* XZMAppDelegate.h */,
-				CD4B1E3218B2D59600AF3528 /* XZMAppDelegate.m */,
-				CD4B1E3418B2D59600AF3528 /* Main.storyboard */,
-				CD4B1E3718B2D59600AF3528 /* XZMViewController.h */,
-				CD4B1E3818B2D59600AF3528 /* XZMViewController.m */,
 				CD4B1E3A18B2D59600AF3528 /* Images.xcassets */,
+				CD4B1E3418B2D59600AF3528 /* Main.storyboard */,
 				CD4B1E2918B2D59600AF3528 /* Supporting Files */,
+				CD2F970218B6E0F100D9DDDF /* XZMAppDelegate.h */,
+				CD2F970018B6E0E500D9DDDF /* XZMAppDelegate.m */,
+				CD2F970518B6E0FD00D9DDDF /* XZMAppDelegate.h */,
+				CD2F970718B6E10700D9DDDF /* XZMViewController.h */,
+				CD2F970818B6E10700D9DDDF /* XZMViewController.m */,
 			);
 			path = "Global Brigades";
 			sourceTree = "<group>";
@@ -126,10 +189,24 @@
 		CD4B1E2918B2D59600AF3528 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				CD18EE7B18B7150800D0278C /* TPKeyboardAvoidingScrollView.h */,
+				CD18EE7C18B7150800D0278C /* TPKeyboardAvoidingScrollView.m */,
+				CDD759D918BEB9E300D6F3E3 /* newsfeedViewController.h */,
+				CDD759DA18BEB9E300D6F3E3 /* newsfeedViewController.m */,
+				CD2F96FD18B6E0CB00D9DDDF /* LoginViewController.h */,
+				CD2F96FE18B6E0D700D9DDDF /* LoginViewController.m */,
+				CDBCCC7518C0FD8E00E87B97 /* extraListViewController.h */,
+				CDBCCC7618C0FD8E00E87B97 /* extraListViewController.m */,
+				CD2F970318B6E0FD00D9DDDF /* SignUpViewController.h */,
+				CD2F970418B6E0FD00D9DDDF /* SignUpViewController.m */,
 				CD4B1E2A18B2D59600AF3528 /* Global Brigades-Info.plist */,
 				CD4B1E2B18B2D59600AF3528 /* InfoPlist.strings */,
 				CD4B1E2E18B2D59600AF3528 /* main.m */,
 				CD4B1E3018B2D59600AF3528 /* Global Brigades-Prefix.pch */,
+				CD01CC4418C111E600A61F43 /* itineraryViewController.h */,
+				CD01CC4518C111E600A61F43 /* itineraryViewController.m */,
+				CD01CC4718C11C2200A61F43 /* dictionaryViewController.h */,
+				CD01CC4818C11C2200A61F43 /* dictionaryViewController.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -250,9 +327,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CD4B1E3318B2D59600AF3528 /* XZMAppDelegate.m in Sources */,
+				CD01CC4618C111E600A61F43 /* itineraryViewController.m in Sources */,
+				CD2F970118B6E0E500D9DDDF /* XZMAppDelegate.m in Sources */,
+				CD2F96FF18B6E0D700D9DDDF /* LoginViewController.m in Sources */,
+				CD2F970918B6E10700D9DDDF /* XZMViewController.m in Sources */,
+				CDBCCC7718C0FD8E00E87B97 /* extraListViewController.m in Sources */,
+				CD18EE7D18B7150800D0278C /* TPKeyboardAvoidingScrollView.m in Sources */,
+				CD2F970618B6E0FD00D9DDDF /* SignUpViewController.m in Sources */,
 				CD4B1E2F18B2D59600AF3528 /* main.m in Sources */,
-				CD4B1E3918B2D59600AF3528 /* XZMViewController.m in Sources */,
+				CD01CC4918C11C2200A61F43 /* dictionaryViewController.m in Sources */,
+				CDD759DB18BEB9E300D6F3E3 /* newsfeedViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -379,6 +463,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/xiangormirko/Desktop/teamtree/Global\\ Brigades",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Global Brigades/Global Brigades-Prefix.pch";
 				INFOPLIST_FILE = "Global Brigades/Global Brigades-Info.plist";
@@ -392,6 +480,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/xiangormirko/Desktop/teamtree/Global\\ Brigades",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Global Brigades/Global Brigades-Prefix.pch";
 				INFOPLIST_FILE = "Global Brigades/Global Brigades-Info.plist";
@@ -461,6 +553,7 @@
 				CD4B1E5318B2D59600AF3528 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CD4B1E5418B2D59600AF3528 /* Build configuration list for PBXNativeTarget "Global BrigadesTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +562,7 @@
 				CD4B1E5618B2D59600AF3528 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

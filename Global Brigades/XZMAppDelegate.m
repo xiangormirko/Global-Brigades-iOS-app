@@ -7,12 +7,16 @@
 //
 
 #import "XZMAppDelegate.h"
+#import <Parse/Parse.h>
+
 
 @implementation XZMAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    [Parse setApplicationId:@"pSqEOrlyhoXUHVEkyv8wPPDv9z9lNTT5Ro7JLX4d"
+                  clientKey:@"A9RCWDC3w58PHlY8ABUUpXFrrxN5HwAMMeEfz0EO"];
+    [self customizedUserInterface];
     return YES;
 }
 							
@@ -41,6 +45,11 @@
 - (void)applicationWillTerminate:(UIApplication *)application
 {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+}
+#pragma mark- Helper methods
+
+-(void) customizedUserInterface {
+    [[UINavigationBar appearance] setBarTintColor:[UIColor colorWithRed:0.278 green:0.71 blue:1 alpha:.5]];
 }
 
 @end
