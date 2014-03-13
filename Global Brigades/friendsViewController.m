@@ -7,6 +7,7 @@
 //
 
 #import "friendsViewController.h"
+#import "editFriendsViewController.h"
 
 @interface friendsViewController ()
 
@@ -35,6 +36,13 @@
 
 }
 
+
+-(void) prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    if ([segue.identifier isEqualToString: @"showEditFriends"]) {
+        editFriendsViewController  *viewController= (editFriendsViewController *) segue.destinationViewController ;
+        viewController.friends= [NSMutableArray arrayWithArray: self.friends];
+    }
+}
 -(void) viewWillAppear:(BOOL)animated{
     [super viewWillAppear:animated];
     [self.navigationController.navigationBar setHidden:NO];

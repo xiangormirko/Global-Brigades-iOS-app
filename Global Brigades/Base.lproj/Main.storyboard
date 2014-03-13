@@ -743,7 +743,7 @@
                     <navigationItem key="navigationItem" title="Friends" id="Pkb-Kx-uvt">
                         <barButtonItem key="rightBarButtonItem" title="Edit Friends" id="Vjj-sC-cvV">
                             <connections>
-                                <segue destination="S6K-T9-A1h" kind="push" id="zop-He-0Kw"/>
+                                <segue destination="S6K-T9-A1h" kind="push" identifier="showEditFriends" id="zop-He-0Kw"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
@@ -899,7 +899,7 @@
             </objects>
             <point key="canvasLocation" x="4277" y="234"/>
         </scene>
-        <!--Edit Friends View Controller-->
+        <!--Edit Friends View Controller - Edit Friends-->
         <scene sceneID="yeD-jF-0tV">
             <objects>
                 <tableViewController id="S6K-T9-A1h" customClass="editFriendsViewController" sceneMemberID="viewController">
@@ -922,7 +922,7 @@
                             <outlet property="delegate" destination="S6K-T9-A1h" id="gjc-uH-J4l"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="pml-3S-hnY"/>
+                    <navigationItem key="navigationItem" title="Edit Friends" id="pml-3S-hnY"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SXZ-b3-glV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

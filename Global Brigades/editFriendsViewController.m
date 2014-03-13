@@ -31,28 +31,19 @@
     }];
     self.currentUser= [PFUser currentUser];
 
-
 }
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
+
 
 #pragma mark - Table view data source
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
-
     return 1;
 }
 
-
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-
-    // Return the number of rows in the section.
     return [self.allUsers count];
 }
 
@@ -63,6 +54,12 @@
     
     PFUser *user= [self.allUsers objectAtIndex: indexPath.row];
     cell.textLabel.text= user.username;
+    
+    if ([self isFriend:user]) {
+        cell.accessoryType= UITableViewCellAccessoryCheckmark;
+    } else {
+        cell.accessoryType= UITableViewCellAccessoryNone ;
+    }
     
     return cell;
 }
@@ -83,6 +80,18 @@
             NSLog(@"Error %@ %@", error, [error userInfo]);
         }
     }];
+}
+#pragma mark- Helper methods
+
+
+- (BOOL)isFriend:(PFUser *) user {
+    for(PFUser *friend in self.friends) {
+        if ([friend.objectId isEqualToString:user.objectId]) {
+            return YES;
+        }
+    }
+    
+    return NO;
 }
 
 @end
