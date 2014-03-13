@@ -35,7 +35,11 @@
 		CD4E05E118B6718700DD24C9 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD4E05D918B6718700DD24C9 /* Security.framework */; };
 		CD4E05E218B6718700DD24C9 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD4E05DA18B6718700DD24C9 /* StoreKit.framework */; };
 		CD4E05E318B6718700DD24C9 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD4E05DB18B6718700DD24C9 /* SystemConfiguration.framework */; };
+		CD5EF1A818C54C8E00A4CEAF /* editFriendsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD5EF1A718C54C8E00A4CEAF /* editFriendsViewController.m */; };
+		CD5EF1AB18C5511E00A4CEAF /* testViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD5EF1AA18C5511E00A4CEAF /* testViewController.m */; };
 		CD88BD2218BA9E6000FB1EB5 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD88BD2118BA9E6000FB1EB5 /* Parse.framework */; };
+		CDAAE59218D250B00089CE72 /* friendsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDAAE59118D250B00089CE72 /* friendsViewController.m */; };
+		CDAAE59818D252750089CE72 /* profileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDAAE59718D252750089CE72 /* profileViewController.m */; };
 		CDBCCC7718C0FD8E00E87B97 /* extraListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDBCCC7618C0FD8E00E87B97 /* extraListViewController.m */; };
 		CDD759DB18BEB9E300D6F3E3 /* newsfeedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDD759DA18BEB9E300D6F3E3 /* newsfeedViewController.m */; };
 /* End PBXBuildFile section */
@@ -90,7 +94,15 @@
 		CD4E05D918B6718700DD24C9 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		CD4E05DA18B6718700DD24C9 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		CD4E05DB18B6718700DD24C9 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		CD5EF1A618C54C8E00A4CEAF /* editFriendsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = editFriendsViewController.h; sourceTree = "<group>"; };
+		CD5EF1A718C54C8E00A4CEAF /* editFriendsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = editFriendsViewController.m; sourceTree = "<group>"; };
+		CD5EF1A918C5511E00A4CEAF /* testViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = testViewController.h; sourceTree = "<group>"; };
+		CD5EF1AA18C5511E00A4CEAF /* testViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = testViewController.m; sourceTree = "<group>"; };
 		CD88BD2118BA9E6000FB1EB5 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = SOURCE_ROOT; };
+		CDAAE59018D250B00089CE72 /* friendsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = friendsViewController.h; sourceTree = "<group>"; };
+		CDAAE59118D250B00089CE72 /* friendsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = friendsViewController.m; sourceTree = "<group>"; };
+		CDAAE59618D252750089CE72 /* profileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = profileViewController.h; sourceTree = "<group>"; };
+		CDAAE59718D252750089CE72 /* profileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = profileViewController.m; sourceTree = "<group>"; };
 		CDBCCC7518C0FD8E00E87B97 /* extraListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = extraListViewController.h; sourceTree = "<group>"; };
 		CDBCCC7618C0FD8E00E87B97 /* extraListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = extraListViewController.m; sourceTree = "<group>"; };
 		CDD759D918BEB9E300D6F3E3 /* newsfeedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = newsfeedViewController.h; sourceTree = "<group>"; };
@@ -207,6 +219,14 @@
 				CD01CC4518C111E600A61F43 /* itineraryViewController.m */,
 				CD01CC4718C11C2200A61F43 /* dictionaryViewController.h */,
 				CD01CC4818C11C2200A61F43 /* dictionaryViewController.m */,
+				CD5EF1A618C54C8E00A4CEAF /* editFriendsViewController.h */,
+				CD5EF1A718C54C8E00A4CEAF /* editFriendsViewController.m */,
+				CD5EF1A918C5511E00A4CEAF /* testViewController.h */,
+				CD5EF1AA18C5511E00A4CEAF /* testViewController.m */,
+				CDAAE59018D250B00089CE72 /* friendsViewController.h */,
+				CDAAE59118D250B00089CE72 /* friendsViewController.m */,
+				CDAAE59618D252750089CE72 /* profileViewController.h */,
+				CDAAE59718D252750089CE72 /* profileViewController.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -327,12 +347,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CDAAE59818D252750089CE72 /* profileViewController.m in Sources */,
 				CD01CC4618C111E600A61F43 /* itineraryViewController.m in Sources */,
 				CD2F970118B6E0E500D9DDDF /* XZMAppDelegate.m in Sources */,
 				CD2F96FF18B6E0D700D9DDDF /* LoginViewController.m in Sources */,
 				CD2F970918B6E10700D9DDDF /* XZMViewController.m in Sources */,
 				CDBCCC7718C0FD8E00E87B97 /* extraListViewController.m in Sources */,
+				CDAAE59218D250B00089CE72 /* friendsViewController.m in Sources */,
 				CD18EE7D18B7150800D0278C /* TPKeyboardAvoidingScrollView.m in Sources */,
+				CD5EF1AB18C5511E00A4CEAF /* testViewController.m in Sources */,
+				CD5EF1A818C54C8E00A4CEAF /* editFriendsViewController.m in Sources */,
 				CD2F970618B6E0FD00D9DDDF /* SignUpViewController.m in Sources */,
 				CD4B1E2F18B2D59600AF3528 /* main.m in Sources */,
 				CD01CC4918C11C2200A61F43 /* dictionaryViewController.m in Sources */,
