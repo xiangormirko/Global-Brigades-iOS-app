@@ -675,7 +675,7 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Custom-wooden-background" translatesAutoresizingMaskIntoConstraints="NO" id="Qlx-NV-87b">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="530"/>
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="FAQ" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hVB-Q8-8sS">
@@ -750,7 +750,7 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Custom-wooden-background" translatesAutoresizingMaskIntoConstraints="NO" id="Xff-c5-yEh">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="530"/>
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="518"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="JohnSmithProPic" translatesAutoresizingMaskIntoConstraints="NO" id="FIk-UJ-pii">
@@ -845,7 +845,7 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Custom-wooden-background" translatesAutoresizingMaskIntoConstraints="NO" id="Mt3-VX-JAh">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="530"/>
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
@@ -992,7 +992,7 @@
     <resources>
         <image name="1622540_10200643847417427_1842229354_o-1" width="810" height="830"/>
         <image name="BlankRectangleOpactiy50percent" width="800" height="500"/>
-        <image name="Custom-wooden-background" width="1200" height="1920"/>
+        <image name="Custom-wooden-background" width="1920" height="1200"/>
         <image name="JohnSmithProPic" width="500" height="500"/>
         <image name="SampleMyProgressRect" width="800" height="500"/>
         <image name="Wood-620x929" width="620" height="929"/>
