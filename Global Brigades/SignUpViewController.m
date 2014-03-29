@@ -63,6 +63,14 @@
         newUser.password=password;
         newUser.email=email;
         
+        
+        [newUser setObject:firstn forKey:@"firstname"];
+        [newUser setObject:lastn  forKey:@"lastname"];
+        [newUser setObject:brigade forKey:@"brigade"];
+        
+        [newUser setObject:university forKey:@"university"];
+        
+        
         [newUser signUpInBackgroundWithBlock:^(BOOL succeeded, NSError *error) {
             if (error) {
                 UIAlertView *alertView= [[UIAlertView alloc] initWithTitle:@"Sorry" message:[error.userInfo objectForKey:@"error"] delegate:nil cancelButtonTitle:@"OK" otherButtonTitles: nil];

@@ -481,7 +481,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Gh3-Ke-5dX" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4438" y="-524"/>
+            <point key="canvasLocation" x="4470" y="-524"/>
         </scene>
         <!--Tab Bar Controller - mainTabs-->
         <scene sceneID="6e5-xj-EJH">
@@ -857,10 +857,10 @@
             </objects>
             <point key="canvasLocation" x="3242" y="574"/>
         </scene>
-        <!--View Controller-->
+        <!--Message View Controller-->
         <scene sceneID="TI9-eh-0ew">
             <objects>
-                <viewController id="sW8-2j-gnt" sceneMemberID="viewController">
+                <viewController id="sW8-2j-gnt" customClass="messageViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="0Ia-zd-s5k"/>
                         <viewControllerLayoutGuide type="bottom" id="c6a-yc-1HB"/>

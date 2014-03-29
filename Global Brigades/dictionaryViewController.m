@@ -48,7 +48,12 @@
 
 #pragma mark - Table view data source
 
+#pragma mark- UITextField delegate methods
 
+- (BOOL) textFieldShouldReturn:(UITextField *)textField{
+    [textField resignFirstResponder];
+    return YES;
+}
 
 
 

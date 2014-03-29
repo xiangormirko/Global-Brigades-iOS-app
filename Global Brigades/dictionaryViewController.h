@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface dictionaryViewController : UITableViewController
+@interface dictionaryViewController : UITableViewController <UITextFieldDelegate>
 
 @end

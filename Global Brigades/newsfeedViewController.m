@@ -48,4 +48,13 @@
     // Dispose of any resources that can be recreated.
 }
 
+
+#pragma mark- UITextField delegate methods
+
+- (BOOL) textFieldShouldReturn:(UITextField *)textField{
+    [textField resignFirstResponder];
+    return YES;
+}
+
+
 @end

@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface newsfeedViewController : UIViewController
+@interface newsfeedViewController : UIViewController <UITextFieldDelegate>
 
 @end
