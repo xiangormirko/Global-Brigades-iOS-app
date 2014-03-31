@@ -118,13 +118,16 @@
         }
         
         
-        
     }];
 
-        
-
-
-
-    
 }
+
+- (void)touchesEnded:(NSSet *)touches withEvent:(UIEvent *)event {
+    
+    UITouch *touch = [touches anyObject];
+    if ( [_profileSummary isFirstResponder] && [touch view] != _profileSummary) {
+        
+        [_profileSummary resignFirstResponder];
+    }}
+
 @end

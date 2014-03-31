@@ -11,6 +11,7 @@
 
 @interface profileViewController : UIViewController
 
+
 @property (nonatomic, strong) NSArray *name;
 
 @property (weak, nonatomic) IBOutlet UILabel *nameLabel;
