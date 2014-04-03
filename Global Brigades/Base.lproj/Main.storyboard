@@ -800,11 +800,11 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="BlankRectangleOpactiy50percent" translatesAutoresizingMaskIntoConstraints="NO" id="k6X-O9-Wgk">
-                                <rect key="frame" x="-20" y="134" width="361" height="155"/>
+                                <rect key="frame" x="-20" y="133" width="361" height="155"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="BlankRectangleOpactiy50percent" translatesAutoresizingMaskIntoConstraints="NO" id="l5q-zH-Avp">
-                                <rect key="frame" x="-20" y="316" width="361" height="84"/>
+                                <rect key="frame" x="-20" y="305" width="361" height="155"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="I3K-RE-L1F">
