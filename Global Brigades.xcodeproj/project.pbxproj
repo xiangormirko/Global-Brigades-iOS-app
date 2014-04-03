@@ -38,11 +38,11 @@
 		CD4E05E318B6718700DD24C9 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD4E05DB18B6718700DD24C9 /* SystemConfiguration.framework */; };
 		CD5EF1A818C54C8E00A4CEAF /* editFriendsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD5EF1A718C54C8E00A4CEAF /* editFriendsViewController.m */; };
 		CD5EF1AB18C5511E00A4CEAF /* testViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD5EF1AA18C5511E00A4CEAF /* testViewController.m */; };
-		CD88BD2218BA9E6000FB1EB5 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD88BD2118BA9E6000FB1EB5 /* Parse.framework */; };
 		CDAAE59218D250B00089CE72 /* friendsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDAAE59118D250B00089CE72 /* friendsViewController.m */; };
 		CDAAE59818D252750089CE72 /* profileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDAAE59718D252750089CE72 /* profileViewController.m */; };
 		CDBCCC7718C0FD8E00E87B97 /* extraListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDBCCC7618C0FD8E00E87B97 /* extraListViewController.m */; };
 		CDD759DB18BEB9E300D6F3E3 /* newsfeedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDD759DA18BEB9E300D6F3E3 /* newsfeedViewController.m */; };
+		F8A115E118ECE0C5008E7239 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8A115E018ECE0C5008E7239 /* Parse.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -101,7 +101,6 @@
 		CD5EF1A718C54C8E00A4CEAF /* editFriendsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = editFriendsViewController.m; sourceTree = "<group>"; };
 		CD5EF1A918C5511E00A4CEAF /* testViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = testViewController.h; sourceTree = "<group>"; };
 		CD5EF1AA18C5511E00A4CEAF /* testViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = testViewController.m; sourceTree = "<group>"; };
-		CD88BD2118BA9E6000FB1EB5 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = SOURCE_ROOT; };
 		CDAAE59018D250B00089CE72 /* friendsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = friendsViewController.h; sourceTree = "<group>"; };
 		CDAAE59118D250B00089CE72 /* friendsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = friendsViewController.m; sourceTree = "<group>"; };
 		CDAAE59618D252750089CE72 /* profileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = profileViewController.h; sourceTree = "<group>"; };
@@ -110,6 +109,7 @@
 		CDBCCC7618C0FD8E00E87B97 /* extraListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = extraListViewController.m; sourceTree = "<group>"; };
 		CDD759D918BEB9E300D6F3E3 /* newsfeedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = newsfeedViewController.h; sourceTree = "<group>"; };
 		CDD759DA18BEB9E300D6F3E3 /* newsfeedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = newsfeedViewController.m; sourceTree = "<group>"; };
+		F8A115E018ECE0C5008E7239 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,7 +123,7 @@
 				CD4E05DF18B6718700DD24C9 /* MobileCoreServices.framework in Frameworks */,
 				CD4E05E018B6718700DD24C9 /* QuartzCore.framework in Frameworks */,
 				CD4E05E118B6718700DD24C9 /* Security.framework in Frameworks */,
-				CD88BD2218BA9E6000FB1EB5 /* Parse.framework in Frameworks */,
+				F8A115E118ECE0C5008E7239 /* Parse.framework in Frameworks */,
 				CD4E05E218B6718700DD24C9 /* StoreKit.framework in Frameworks */,
 				CD4E05E318B6718700DD24C9 /* SystemConfiguration.framework in Frameworks */,
 				CD4B1E2518B2D59600AF3528 /* CoreGraphics.framework in Frameworks */,
@@ -168,7 +168,7 @@
 		CD4B1E2118B2D59600AF3528 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				CD88BD2118BA9E6000FB1EB5 /* Parse.framework */,
+				F8A115E018ECE0C5008E7239 /* Parse.framework */,
 				CD4E05D218B6716200DD24C9 /* AudioToolbox.framework */,
 				CD4E05D418B6718700DD24C9 /* CFNetwork.framework */,
 				CD4B1E2418B2D59600AF3528 /* CoreGraphics.framework */,
@@ -494,7 +494,9 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"/Users/xiangormirko/Desktop/teamtree/Global\\ Brigades",
+					/Users/xiangormirko/Desktop/teamtree/Global,
+					Brigades,
+					"$(PROJECT_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Global Brigades/Global Brigades-Prefix.pch";
@@ -511,7 +513,9 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"/Users/xiangormirko/Desktop/teamtree/Global\\ Brigades",
+					/Users/xiangormirko/Desktop/teamtree/Global,
+					Brigades,
+					"$(PROJECT_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Global Brigades/Global Brigades-Prefix.pch";
