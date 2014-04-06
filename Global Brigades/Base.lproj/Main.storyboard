@@ -1049,7 +1049,11 @@
                                 <action selector="cancel:" destination="oxx-Ii-Brw" id="YXY-hJ-sTA"/>
                             </connections>
                         </barButtonItem>
-                        <barButtonItem key="rightBarButtonItem" title="Send" id="pIa-Yk-5tE"/>
+                        <barButtonItem key="rightBarButtonItem" title="Send" id="pIa-Yk-5tE">
+                            <connections>
+                                <action selector="send:" destination="oxx-Ii-Brw" id="iyu-TI-dVP"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Em1-84-oFd" userLabel="First Responder" sceneMemberID="firstResponder"/>

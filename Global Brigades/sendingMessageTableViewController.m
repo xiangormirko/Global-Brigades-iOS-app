@@ -42,6 +42,7 @@
 }
 
 
+
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
@@ -60,11 +61,11 @@
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
     
-    // Return the number of rows in the section.
+    // how many rows.
     return [self.friends count];
 }
 
-
+//display data in cells
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     static NSString *CellIdentifier = @"Cell";
@@ -84,6 +85,7 @@
 }
 
 
+// What happens when you click on a cell
 -(void) tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
     [self.tableView deselectRowAtIndexPath:indexPath animated:NO];
@@ -104,9 +106,42 @@
 
 #pragma mark - IBActions
 
+// cancel button methods
+
 - (IBAction)cancel:(id)sender {
     
     [self.recipients removeAllObjects];
     [self.navigationController popViewControllerAnimated:YES];
+}
+
+// send button methods
+
+- (IBAction)send:(id)sender {
+    
+    [self uploadMessage];
+    [self.navigationController popViewControllerAnimated:YES];
+    
+
+}
+
+#pragma mark - Helper Methords
+
+- (void) uploadMessage  {
+    
+
+    PFObject *message = [PFObject objectWithClassName:@"Messages"];
+    [message setObject:self.recipients forKey:@"recipients"];
+    [message setObject:[[PFUser currentUser] objectId] forKey:@"senderId"];
+    [message setObject:[[PFUser currentUser] username] forKey:@"senderName"];
+    [message saveInBackgroundWithBlock:^(BOOL succeeded, NSError *error) {
+        if (error){
+            UIAlertView *alertView= [[UIAlertView alloc] initWithTitle:@"An error occured" message:@"Please try sending your message again" delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil];
+            [alertView show];
+        } else {
+            [self.recipients removeAllObjects];
+            
+        }
+        
+    }];
 }
 @end

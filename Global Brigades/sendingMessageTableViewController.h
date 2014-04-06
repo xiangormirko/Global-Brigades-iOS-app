@@ -15,7 +15,12 @@
 @property (nonatomic, strong) PFRelation *friendsRelation;
 @property (nonatomic, strong) NSMutableArray *recipients;
 
+
 - (IBAction)cancel:(id)sender;
+
+- (IBAction)send:(id)sender;
+
+- (void) uploadMessage;
 
 
 @end
