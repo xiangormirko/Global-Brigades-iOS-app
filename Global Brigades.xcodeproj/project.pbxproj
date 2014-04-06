@@ -42,6 +42,7 @@
 		CDAAE59818D252750089CE72 /* profileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDAAE59718D252750089CE72 /* profileViewController.m */; };
 		CDBCCC7718C0FD8E00E87B97 /* extraListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDBCCC7618C0FD8E00E87B97 /* extraListViewController.m */; };
 		CDD759DB18BEB9E300D6F3E3 /* newsfeedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDD759DA18BEB9E300D6F3E3 /* newsfeedViewController.m */; };
+		CDE8F7F518F1CE2500F3044F /* sendingMessageTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDE8F7F418F1CE2500F3044F /* sendingMessageTableViewController.m */; };
 		F8A115E118ECE0C5008E7239 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8A115E018ECE0C5008E7239 /* Parse.framework */; };
 /* End PBXBuildFile section */
 
@@ -109,6 +110,8 @@
 		CDBCCC7618C0FD8E00E87B97 /* extraListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = extraListViewController.m; sourceTree = "<group>"; };
 		CDD759D918BEB9E300D6F3E3 /* newsfeedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = newsfeedViewController.h; sourceTree = "<group>"; };
 		CDD759DA18BEB9E300D6F3E3 /* newsfeedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = newsfeedViewController.m; sourceTree = "<group>"; };
+		CDE8F7F318F1CE2500F3044F /* sendingMessageTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sendingMessageTableViewController.h; sourceTree = "<group>"; };
+		CDE8F7F418F1CE2500F3044F /* sendingMessageTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = sendingMessageTableViewController.m; sourceTree = "<group>"; };
 		F8A115E018ECE0C5008E7239 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -204,6 +207,8 @@
 		CD4B1E2918B2D59600AF3528 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				CDE8F7F318F1CE2500F3044F /* sendingMessageTableViewController.h */,
+				CDE8F7F418F1CE2500F3044F /* sendingMessageTableViewController.m */,
 				CD18EE7B18B7150800D0278C /* TPKeyboardAvoidingScrollView.h */,
 				CD18EE7C18B7150800D0278C /* TPKeyboardAvoidingScrollView.m */,
 				CDD759D918BEB9E300D6F3E3 /* newsfeedViewController.h */,
@@ -354,6 +359,7 @@
 			files = (
 				CDAAE59818D252750089CE72 /* profileViewController.m in Sources */,
 				CD01CC4618C111E600A61F43 /* itineraryViewController.m in Sources */,
+				CDE8F7F518F1CE2500F3044F /* sendingMessageTableViewController.m in Sources */,
 				CD2F970118B6E0E500D9DDDF /* XZMAppDelegate.m in Sources */,
 				CD2F96FF18B6E0D700D9DDDF /* LoginViewController.m in Sources */,
 				CD2F970918B6E10700D9DDDF /* XZMViewController.m in Sources */,
