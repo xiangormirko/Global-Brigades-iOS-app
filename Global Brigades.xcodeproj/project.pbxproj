@@ -43,7 +43,7 @@
 		CDBCCC7718C0FD8E00E87B97 /* extraListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDBCCC7618C0FD8E00E87B97 /* extraListViewController.m */; };
 		CDD759DB18BEB9E300D6F3E3 /* newsfeedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDD759DA18BEB9E300D6F3E3 /* newsfeedViewController.m */; };
 		CDE8F7F518F1CE2500F3044F /* sendingMessageTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDE8F7F418F1CE2500F3044F /* sendingMessageTableViewController.m */; };
-		F8A115E118ECE0C5008E7239 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8A115E018ECE0C5008E7239 /* Parse.framework */; };
+		CDE8F7F718F1D23C00F3044F /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDE8F7F618F1D23C00F3044F /* Parse.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -112,7 +112,7 @@
 		CDD759DA18BEB9E300D6F3E3 /* newsfeedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = newsfeedViewController.m; sourceTree = "<group>"; };
 		CDE8F7F318F1CE2500F3044F /* sendingMessageTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sendingMessageTableViewController.h; sourceTree = "<group>"; };
 		CDE8F7F418F1CE2500F3044F /* sendingMessageTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = sendingMessageTableViewController.m; sourceTree = "<group>"; };
-		F8A115E018ECE0C5008E7239 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		CDE8F7F618F1D23C00F3044F /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,7 +126,7 @@
 				CD4E05DF18B6718700DD24C9 /* MobileCoreServices.framework in Frameworks */,
 				CD4E05E018B6718700DD24C9 /* QuartzCore.framework in Frameworks */,
 				CD4E05E118B6718700DD24C9 /* Security.framework in Frameworks */,
-				F8A115E118ECE0C5008E7239 /* Parse.framework in Frameworks */,
+				CDE8F7F718F1D23C00F3044F /* Parse.framework in Frameworks */,
 				CD4E05E218B6718700DD24C9 /* StoreKit.framework in Frameworks */,
 				CD4E05E318B6718700DD24C9 /* SystemConfiguration.framework in Frameworks */,
 				CD4B1E2518B2D59600AF3528 /* CoreGraphics.framework in Frameworks */,
@@ -171,7 +171,7 @@
 		CD4B1E2118B2D59600AF3528 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				F8A115E018ECE0C5008E7239 /* Parse.framework */,
+				CDE8F7F618F1D23C00F3044F /* Parse.framework */,
 				CD4E05D218B6716200DD24C9 /* AudioToolbox.framework */,
 				CD4E05D418B6718700DD24C9 /* CFNetwork.framework */,
 				CD4B1E2418B2D59600AF3528 /* CoreGraphics.framework */,
@@ -500,8 +500,6 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					/Users/xiangormirko/Desktop/teamtree/Global,
-					Brigades,
 					"$(PROJECT_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -519,8 +517,6 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					/Users/xiangormirko/Desktop/teamtree/Global,
-					Brigades,
 					"$(PROJECT_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
