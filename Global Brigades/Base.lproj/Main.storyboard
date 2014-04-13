@@ -985,10 +985,10 @@
             </objects>
             <point key="canvasLocation" x="3751" y="234"/>
         </scene>
-        <!--Table View Controller-->
+        <!--Inbox Table View Controller-->
         <scene sceneID="2aX-Xn-ZyT">
             <objects>
-                <tableViewController id="851-Hp-e0U" sceneMemberID="viewController">
+                <tableViewController id="851-Hp-e0U" customClass="inboxTableViewController" sceneMemberID="viewController">
                     <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="o5W-Ox-LVz">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

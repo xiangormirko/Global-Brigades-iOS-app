@@ -39,6 +39,7 @@
 		CD4E05E318B6718700DD24C9 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD4E05DB18B6718700DD24C9 /* SystemConfiguration.framework */; };
 		CD5EF1A818C54C8E00A4CEAF /* editFriendsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD5EF1A718C54C8E00A4CEAF /* editFriendsViewController.m */; };
 		CD5EF1AB18C5511E00A4CEAF /* testViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD5EF1AA18C5511E00A4CEAF /* testViewController.m */; };
+		CD70C0C718FAF0D400487305 /* inboxTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD70C0C618FAF0D400487305 /* inboxTableViewController.m */; };
 		CDAAE59218D250B00089CE72 /* friendsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDAAE59118D250B00089CE72 /* friendsViewController.m */; };
 		CDAAE59818D252750089CE72 /* profileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDAAE59718D252750089CE72 /* profileViewController.m */; };
 		CDBCCC7718C0FD8E00E87B97 /* extraListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDBCCC7618C0FD8E00E87B97 /* extraListViewController.m */; };
@@ -105,6 +106,8 @@
 		CD5EF1A718C54C8E00A4CEAF /* editFriendsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = editFriendsViewController.m; sourceTree = "<group>"; };
 		CD5EF1A918C5511E00A4CEAF /* testViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = testViewController.h; sourceTree = "<group>"; };
 		CD5EF1AA18C5511E00A4CEAF /* testViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = testViewController.m; sourceTree = "<group>"; };
+		CD70C0C518FAF0D400487305 /* inboxTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = inboxTableViewController.h; sourceTree = "<group>"; };
+		CD70C0C618FAF0D400487305 /* inboxTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = inboxTableViewController.m; sourceTree = "<group>"; };
 		CDAAE59018D250B00089CE72 /* friendsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = friendsViewController.h; sourceTree = "<group>"; };
 		CDAAE59118D250B00089CE72 /* friendsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = friendsViewController.m; sourceTree = "<group>"; };
 		CDAAE59618D252750089CE72 /* profileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = profileViewController.h; sourceTree = "<group>"; };
@@ -172,6 +175,8 @@
 				CD1E705418E3B91C00F734F3 /* messageViewController.m */,
 				CD1916C118F5F2C800B247E1 /* composeMessageViewController.h */,
 				CD1916C218F5F2C800B247E1 /* composeMessageViewController.m */,
+				CD70C0C518FAF0D400487305 /* inboxTableViewController.h */,
+				CD70C0C618FAF0D400487305 /* inboxTableViewController.m */,
 			);
 			name = Messaging;
 			sourceTree = "<group>";
@@ -410,6 +415,7 @@
 				CD2F970918B6E10700D9DDDF /* XZMViewController.m in Sources */,
 				CDBCCC7718C0FD8E00E87B97 /* extraListViewController.m in Sources */,
 				CDAAE59218D250B00089CE72 /* friendsViewController.m in Sources */,
+				CD70C0C718FAF0D400487305 /* inboxTableViewController.m in Sources */,
 				CD18EE7D18B7150800D0278C /* TPKeyboardAvoidingScrollView.m in Sources */,
 				CD5EF1AB18C5511E00A4CEAF /* testViewController.m in Sources */,
 				CD1916C318F5F2C800B247E1 /* composeMessageViewController.m in Sources */,
