@@ -10,6 +10,7 @@
 		CD01CC4618C111E600A61F43 /* itineraryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD01CC4518C111E600A61F43 /* itineraryViewController.m */; };
 		CD01CC4918C11C2200A61F43 /* dictionaryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD01CC4818C11C2200A61F43 /* dictionaryViewController.m */; };
 		CD18EE7D18B7150800D0278C /* TPKeyboardAvoidingScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = CD18EE7C18B7150800D0278C /* TPKeyboardAvoidingScrollView.m */; };
+		CD1916C318F5F2C800B247E1 /* composeMessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD1916C218F5F2C800B247E1 /* composeMessageViewController.m */; };
 		CD1E705518E3B91C00F734F3 /* messageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD1E705418E3B91C00F734F3 /* messageViewController.m */; };
 		CD2F96FF18B6E0D700D9DDDF /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD2F96FE18B6E0D700D9DDDF /* LoginViewController.m */; };
 		CD2F970118B6E0E500D9DDDF /* XZMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD2F970018B6E0E500D9DDDF /* XZMAppDelegate.m */; };
@@ -63,6 +64,8 @@
 		CD01CC4818C11C2200A61F43 /* dictionaryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = dictionaryViewController.m; sourceTree = "<group>"; };
 		CD18EE7B18B7150800D0278C /* TPKeyboardAvoidingScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPKeyboardAvoidingScrollView.h; sourceTree = "<group>"; };
 		CD18EE7C18B7150800D0278C /* TPKeyboardAvoidingScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingScrollView.m; sourceTree = "<group>"; };
+		CD1916C118F5F2C800B247E1 /* composeMessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = composeMessageViewController.h; sourceTree = "<group>"; };
+		CD1916C218F5F2C800B247E1 /* composeMessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = composeMessageViewController.m; sourceTree = "<group>"; };
 		CD1E705318E3B91C00F734F3 /* messageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = messageViewController.h; sourceTree = "<group>"; };
 		CD1E705418E3B91C00F734F3 /* messageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = messageViewController.m; sourceTree = "<group>"; };
 		CD2F96FD18B6E0CB00D9DDDF /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
@@ -149,6 +152,63 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CD1916C418F5FB5800B247E1 /* Offline */ = {
+			isa = PBXGroup;
+			children = (
+				CD01CC4418C111E600A61F43 /* itineraryViewController.h */,
+				CD01CC4518C111E600A61F43 /* itineraryViewController.m */,
+				CD01CC4718C11C2200A61F43 /* dictionaryViewController.h */,
+				CD01CC4818C11C2200A61F43 /* dictionaryViewController.m */,
+			);
+			name = Offline;
+			sourceTree = "<group>";
+		};
+		CD1916C518F5FB6300B247E1 /* Messaging */ = {
+			isa = PBXGroup;
+			children = (
+				CDE8F7F318F1CE2500F3044F /* sendingMessageTableViewController.h */,
+				CDE8F7F418F1CE2500F3044F /* sendingMessageTableViewController.m */,
+				CD1E705318E3B91C00F734F3 /* messageViewController.h */,
+				CD1E705418E3B91C00F734F3 /* messageViewController.m */,
+				CD1916C118F5F2C800B247E1 /* composeMessageViewController.h */,
+				CD1916C218F5F2C800B247E1 /* composeMessageViewController.m */,
+			);
+			name = Messaging;
+			sourceTree = "<group>";
+		};
+		CD1916C618F5FB9800B247E1 /* Profile page */ = {
+			isa = PBXGroup;
+			children = (
+				CD5EF1A618C54C8E00A4CEAF /* editFriendsViewController.h */,
+				CD5EF1A718C54C8E00A4CEAF /* editFriendsViewController.m */,
+				CDAAE59018D250B00089CE72 /* friendsViewController.h */,
+				CDAAE59118D250B00089CE72 /* friendsViewController.m */,
+				CDAAE59618D252750089CE72 /* profileViewController.h */,
+				CDAAE59718D252750089CE72 /* profileViewController.m */,
+			);
+			name = "Profile page";
+			sourceTree = "<group>";
+		};
+		CD1916C718F5FBD200B247E1 /* sign up and login */ = {
+			isa = PBXGroup;
+			children = (
+				CD2F970318B6E0FD00D9DDDF /* SignUpViewController.h */,
+				CD2F970418B6E0FD00D9DDDF /* SignUpViewController.m */,
+				CD2F96FD18B6E0CB00D9DDDF /* LoginViewController.h */,
+				CD2F96FE18B6E0D700D9DDDF /* LoginViewController.m */,
+			);
+			name = "sign up and login";
+			sourceTree = "<group>";
+		};
+		CD1916C818F5FBFC00B247E1 /* Newsfeed */ = {
+			isa = PBXGroup;
+			children = (
+				CDD759D918BEB9E300D6F3E3 /* newsfeedViewController.h */,
+				CDD759DA18BEB9E300D6F3E3 /* newsfeedViewController.m */,
+			);
+			name = Newsfeed;
+			sourceTree = "<group>";
+		};
 		CD4B1E1618B2D59600AF3528 = {
 			isa = PBXGroup;
 			children = (
@@ -194,12 +254,17 @@
 			children = (
 				CD4B1E3A18B2D59600AF3528 /* Images.xcassets */,
 				CD4B1E3418B2D59600AF3528 /* Main.storyboard */,
-				CD4B1E2918B2D59600AF3528 /* Supporting Files */,
 				CD2F970218B6E0F100D9DDDF /* XZMAppDelegate.h */,
 				CD2F970018B6E0E500D9DDDF /* XZMAppDelegate.m */,
 				CD2F970518B6E0FD00D9DDDF /* XZMAppDelegate.h */,
 				CD2F970718B6E10700D9DDDF /* XZMViewController.h */,
 				CD2F970818B6E10700D9DDDF /* XZMViewController.m */,
+				CD1916C818F5FBFC00B247E1 /* Newsfeed */,
+				CD1916C718F5FBD200B247E1 /* sign up and login */,
+				CD1916C618F5FB9800B247E1 /* Profile page */,
+				CD4B1E2918B2D59600AF3528 /* Supporting Files */,
+				CD1916C518F5FB6300B247E1 /* Messaging */,
+				CD1916C418F5FB5800B247E1 /* Offline */,
 			);
 			path = "Global Brigades";
 			sourceTree = "<group>";
@@ -207,36 +272,16 @@
 		CD4B1E2918B2D59600AF3528 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				CDE8F7F318F1CE2500F3044F /* sendingMessageTableViewController.h */,
-				CDE8F7F418F1CE2500F3044F /* sendingMessageTableViewController.m */,
 				CD18EE7B18B7150800D0278C /* TPKeyboardAvoidingScrollView.h */,
 				CD18EE7C18B7150800D0278C /* TPKeyboardAvoidingScrollView.m */,
-				CDD759D918BEB9E300D6F3E3 /* newsfeedViewController.h */,
-				CDD759DA18BEB9E300D6F3E3 /* newsfeedViewController.m */,
-				CD2F96FD18B6E0CB00D9DDDF /* LoginViewController.h */,
-				CD2F96FE18B6E0D700D9DDDF /* LoginViewController.m */,
 				CDBCCC7518C0FD8E00E87B97 /* extraListViewController.h */,
 				CDBCCC7618C0FD8E00E87B97 /* extraListViewController.m */,
-				CD2F970318B6E0FD00D9DDDF /* SignUpViewController.h */,
-				CD2F970418B6E0FD00D9DDDF /* SignUpViewController.m */,
 				CD4B1E2A18B2D59600AF3528 /* Global Brigades-Info.plist */,
 				CD4B1E2B18B2D59600AF3528 /* InfoPlist.strings */,
 				CD4B1E2E18B2D59600AF3528 /* main.m */,
 				CD4B1E3018B2D59600AF3528 /* Global Brigades-Prefix.pch */,
-				CD01CC4418C111E600A61F43 /* itineraryViewController.h */,
-				CD01CC4518C111E600A61F43 /* itineraryViewController.m */,
-				CD01CC4718C11C2200A61F43 /* dictionaryViewController.h */,
-				CD01CC4818C11C2200A61F43 /* dictionaryViewController.m */,
-				CD5EF1A618C54C8E00A4CEAF /* editFriendsViewController.h */,
-				CD5EF1A718C54C8E00A4CEAF /* editFriendsViewController.m */,
 				CD5EF1A918C5511E00A4CEAF /* testViewController.h */,
 				CD5EF1AA18C5511E00A4CEAF /* testViewController.m */,
-				CDAAE59018D250B00089CE72 /* friendsViewController.h */,
-				CDAAE59118D250B00089CE72 /* friendsViewController.m */,
-				CDAAE59618D252750089CE72 /* profileViewController.h */,
-				CDAAE59718D252750089CE72 /* profileViewController.m */,
-				CD1E705318E3B91C00F734F3 /* messageViewController.h */,
-				CD1E705418E3B91C00F734F3 /* messageViewController.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -367,6 +412,7 @@
 				CDAAE59218D250B00089CE72 /* friendsViewController.m in Sources */,
 				CD18EE7D18B7150800D0278C /* TPKeyboardAvoidingScrollView.m in Sources */,
 				CD5EF1AB18C5511E00A4CEAF /* testViewController.m in Sources */,
+				CD1916C318F5F2C800B247E1 /* composeMessageViewController.m in Sources */,
 				CD5EF1A818C54C8E00A4CEAF /* editFriendsViewController.m in Sources */,
 				CD2F970618B6E0FD00D9DDDF /* SignUpViewController.m in Sources */,
 				CD4B1E2F18B2D59600AF3528 /* main.m in Sources */,

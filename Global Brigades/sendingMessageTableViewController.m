@@ -7,6 +7,7 @@
 //
 
 #import "sendingMessageTableViewController.h"
+#import "composeMessageViewController.h"
 
 @interface sendingMessageTableViewController ()
 
@@ -23,10 +24,18 @@
     self.friendsRelation= [[PFUser currentUser] objectForKey: @"friendsRelation"];
     
     self.recipients= [[NSMutableArray alloc] init];
+    
+    composeMessageViewController *VC2 = [self.storyboard instantiateViewControllerWithIdentifier:@"composeMessageViewController"];
+    
+    VC2.delegate= self;
+    
+    [self presentViewController:VC2 animated:YES completion:nil];
 }
 
 -(void) viewWillAppear:(BOOL)animated{
     [super viewWillAppear:animated];
+    
+
     
     PFQuery *query= [self.friendsRelation query];
     [query orderByAscending:@"username"];
@@ -120,8 +129,9 @@
     
     [self uploadMessage];
     [self.navigationController popViewControllerAnimated:YES];
+    NSLog(@"%@", self.messageText );
     
-
+    
 }
 
 #pragma mark - Helper Methords
@@ -133,6 +143,7 @@
     [message setObject:self.recipients forKey:@"recipients"];
     [message setObject:[[PFUser currentUser] objectId] forKey:@"senderId"];
     [message setObject:[[PFUser currentUser] username] forKey:@"senderName"];
+    [message setObject:self.messageText forKey:@"messageText"];
     [message saveInBackgroundWithBlock:^(BOOL succeeded, NSError *error) {
         if (error){
             UIAlertView *alertView= [[UIAlertView alloc] initWithTitle:@"An error occured" message:@"Please try sending your message again" delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil];
@@ -143,5 +154,11 @@
         }
         
     }];
+}
+
+-(void) passMessage:(composeMessageViewController *)contorller didFinishWithItem:(NSString *)item
+{
+    self.messageText= item;
+    
 }
 @end
